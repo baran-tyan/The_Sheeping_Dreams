@@ -1,0 +1,982 @@
+fileFormatVersion: 2
+guid: 85a22cd7efef23a478fa2100a2e04bd3
+timeCreated: 1512601476
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Lvl_platforms_0
+    21300002: Lvl_platforms_1
+    21300004: Lvl_platforms_2
+    21300006: Lvl_platforms_3
+    21300008: Lvl_platforms_4
+    21300010: Lvl_platforms_5
+    21300012: Lvl_platforms_6
+    21300014: Lvl_platforms_7
+    21300016: Lvl_platforms_8
+    21300018: Lvl_platforms_9
+    21300020: Lvl_platforms_10
+    21300022: Lvl_platforms_11
+    21300024: Lvl_platforms_12
+    21300026: Lvl_platforms_13
+    21300028: Lvl_platforms_14
+    21300030: Lvl_platforms_15
+    21300032: Lvl_platforms_16
+    21300034: Lvl_platforms_17
+    21300036: Lvl_platforms_18
+    21300038: Lvl_platforms_19
+    21300040: Lvl_platforms_20
+    21300042: Lvl_platforms_21
+    21300044: Lvl_platforms_22
+    21300046: Lvl_platforms_23
+    21300048: Lvl_platforms_24
+    21300050: Lvl_platforms_25
+    21300052: Lvl_platforms_26
+    21300054: Lvl_platforms_27
+    21300056: Lvl_platforms_28
+    21300058: Lvl_platforms_29
+    21300060: Lvl_platforms_30
+    21300062: Lvl_platforms_31
+    21300064: Lvl_platforms_32
+    21300066: Lvl_platforms_33
+    21300068: Lvl_platforms_34
+    21300070: Lvl_platforms_35
+    21300072: Lvl_platforms_36
+    21300074: Lvl_platforms_37
+    21300076: Lvl_platforms_38
+    21300078: Lvl_platforms_39
+    21300080: Lvl_platforms_40
+    21300082: Lvl_platforms_41
+    21300084: Lvl_platforms_42
+    21300086: Lvl_platforms_43
+    21300088: Lvl_platforms_44
+    21300090: Lvl_platforms_45
+    21300092: Lvl_platforms_46
+    21300094: Lvl_platforms_47
+    21300096: Lvl_platforms_48
+    21300098: Lvl_platforms_49
+    21300100: Lvl_platforms_50
+    21300102: Lvl_platforms_51
+    21300104: Lvl_platforms_52
+    21300106: Lvl_platforms_53
+    21300108: Lvl_platforms_54
+    21300110: Lvl_platforms_55
+    21300112: Lvl_platforms_56
+    21300114: Lvl_platforms_57
+    21300116: Lvl_platforms_58
+    21300118: Lvl_platforms_59
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lvl_platforms_0
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 1112
+        width: 728
+        height: 141
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_1
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 1205
+        width: 11
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_2
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 846
+        width: 439
+        height: 279
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_3
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 1064
+        width: 249
+        height: 126
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_4
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 907
+        width: 342
+        height: 186
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_5
+      rect:
+        serializedVersion: 2
+        x: 6431
+        y: 788
+        width: 383
+        height: 302
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_6
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 785
+        width: 502
+        height: 167
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_7
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 863
+        width: 11
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_8
+      rect:
+        serializedVersion: 2
+        x: 3442
+        y: 874
+        width: 115
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_9
+      rect:
+        serializedVersion: 2
+        x: 4052
+        y: 807
+        width: 171
+        height: 71
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_10
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 859
+        width: 672
+        height: 123
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_11
+      rect:
+        serializedVersion: 2
+        x: 5141
+        y: 733
+        width: 658
+        height: 152
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_12
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 722
+        width: 405
+        height: 130
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_13
+      rect:
+        serializedVersion: 2
+        x: 4375
+        y: 762
+        width: 194
+        height: 97
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_14
+      rect:
+        serializedVersion: 2
+        x: 6338
+        y: 844
+        width: 52
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_15
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 681
+        width: 320
+        height: 104
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_16
+      rect:
+        serializedVersion: 2
+        x: 6375
+        y: 740
+        width: 52
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_17
+      rect:
+        serializedVersion: 2
+        x: 7141
+        y: 681
+        width: 197
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_18
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 625
+        width: 227
+        height: 104
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_19
+      rect:
+        serializedVersion: 2
+        x: 6271
+        y: 703
+        width: 71
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_20
+      rect:
+        serializedVersion: 2
+        x: 5728
+        y: 528
+        width: 342
+        height: 138
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_21
+      rect:
+        serializedVersion: 2
+        x: 6174
+        y: 662
+        width: 60
+        height: 41
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_22
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 636
+        width: 15
+        height: 11
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_23
+      rect:
+        serializedVersion: 2
+        x: 3546
+        y: 643
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_24
+      rect:
+        serializedVersion: 2
+        x: 5178
+        y: 521
+        width: 153
+        height: 134
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_25
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 454
+        width: 361
+        height: 189
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_26
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 580
+        width: 130
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_27
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 599
+        width: 15
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_28
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 554
+        width: 152
+        height: 89
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_29
+      rect:
+        serializedVersion: 2
+        x: 3554
+        y: 547
+        width: 145
+        height: 89
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_30
+      rect:
+        serializedVersion: 2
+        x: 6643
+        y: 521
+        width: 141
+        height: 81
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_31
+      rect:
+        serializedVersion: 2
+        x: 6873
+        y: 554
+        width: 101
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_32
+      rect:
+        serializedVersion: 2
+        x: 7096
+        y: 573
+        width: 93
+        height: 52
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_33
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 513
+        width: 190
+        height: 86
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_34
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 480
+        width: 211
+        height: 115
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_35
+      rect:
+        serializedVersion: 2
+        x: 6401
+        y: 550
+        width: 8
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_36
+      rect:
+        serializedVersion: 2
+        x: 7026
+        y: 513
+        width: 130
+        height: 78
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_37
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 510
+        width: 4
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_38
+      rect:
+        serializedVersion: 2
+        x: 6435
+        y: 387
+        width: 189
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_39
+      rect:
+        serializedVersion: 2
+        x: 4885
+        y: 446
+        width: 245
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_40
+      rect:
+        serializedVersion: 2
+        x: 6126
+        y: 398
+        width: 126
+        height: 82
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_41
+      rect:
+        serializedVersion: 2
+        x: 6624
+        y: 391
+        width: 134
+        height: 85
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_42
+      rect:
+        serializedVersion: 2
+        x: 7003
+        y: 439
+        width: 93
+        height: 44
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_43
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 361
+        width: 130
+        height: 67
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_44
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 305
+        width: 257
+        height: 104
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_45
+      rect:
+        serializedVersion: 2
+        x: 4732
+        y: 327
+        width: 190
+        height: 75
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_46
+      rect:
+        serializedVersion: 2
+        x: 6156
+        y: 238
+        width: 260
+        height: 175
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_47
+      rect:
+        serializedVersion: 2
+        x: 6241
+        y: 391
+        width: 60
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_48
+      rect:
+        serializedVersion: 2
+        x: 6955
+        y: 391
+        width: 93
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_49
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 268
+        width: 276
+        height: 104
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_50
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 342
+        width: 7
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_51
+      rect:
+        serializedVersion: 2
+        x: 6423
+        y: 342
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_52
+      rect:
+        serializedVersion: 2
+        x: 7275
+        y: 279
+        width: 96
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_53
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 264
+        width: 134
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_54
+      rect:
+        serializedVersion: 2
+        x: 6884
+        y: 301
+        width: 78
+        height: 41
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_55
+      rect:
+        serializedVersion: 2
+        x: 7033
+        y: 290
+        width: 104
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_56
+      rect:
+        serializedVersion: 2
+        x: 6148
+        y: 286
+        width: 8
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_57
+      rect:
+        serializedVersion: 2
+        x: 6394
+        y: 238
+        width: 93
+        height: 52
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_58
+      rect:
+        serializedVersion: 2
+        x: 4598
+        y: 171
+        width: 168
+        height: 89
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lvl_platforms_59
+      rect:
+        serializedVersion: 2
+        x: 6461
+        y: 171
+        width: 111
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
