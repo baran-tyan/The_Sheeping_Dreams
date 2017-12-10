@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 62819f5fc142305448abbd1355857572
-timeCreated: 1512829766
+timeCreated: 1512900931
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -25,6 +25,22 @@ TextureImporter:
     21300036: JR_4
     21300038: JR_5
     21300040: JR_6
+    21300042: Disappear_1
+    21300044: Disappear_2
+    21300046: Disappear_3
+    21300048: Disappear_4
+    21300050: Disappear_5
+    21300052: Disappear_6
+    21300054: Disappear_7
+    21300056: Disappear_8
+    21300058: Disappear_9
+    21300060: Disappear_11
+    21300062: "\u0421haracter 2_0"
+    21300064: Disappear_12
+    21300066: Disappear_13
+    21300068: Fall_1
+    21300070: Fall_2
+    21300072: Fall_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -383,6 +399,230 @@ TextureImporter:
         y: 867
         width: 118
         height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_1
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 357
+        width: 118
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_2
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 393
+        width: 119
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_3
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 412
+        width: 111
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_4
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 436
+        width: 119
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_5
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 472
+        width: 95
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_6
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 377
+        width: 85
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_7
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 388
+        width: 110
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_8
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 375
+        width: 151
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_9
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 67
+        width: 146
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_11
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 74
+        width: 136
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\u0421haracter 2_0"
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 350
+        width: 213
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_12
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 60
+        width: 81
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Disappear_13
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 338
+        width: 72
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Fall_1
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 392
+        width: 117
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Fall_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 389
+        width: 109
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Fall_3
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 373
+        width: 121
+        height: 218
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
