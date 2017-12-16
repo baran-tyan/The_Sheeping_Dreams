@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class MenuScript : MonoBehaviour
 {
+
     void OnGUI()
     {
-        if (GUI.Button(new Rect(50,20,100,100),"Начать игру"))
+        if (GUI.Button(new Rect(30, 70, 400, 65), "Начать игру"))
         {
             print("Игра началась");
-            Application.LoadLevel("almost_died");
+            Application.LoadLevel("PrevievCourseProject");
         }
-            
+
+        if (GUI.Button(new Rect(30, 465, 400, 40), "Выход"))
+        {
+            print("Выход из игры");
+            Application.Quit();
+            //Application.LoadLevel("PrevievCourseProject");
+        }
+
     }
 }

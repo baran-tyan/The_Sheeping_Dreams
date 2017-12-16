@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/MainMenu.unity
     guid: 990c1fa11567618448137ab0de723d0c
+  - enabled: 1
+    path: Assets/scenes/PrevievCourseProject.unity
+    guid: 9852248121285a64b9e1ee739c3405f3
