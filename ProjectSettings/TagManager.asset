@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Water
+  - booster
+  - respown
+  - enemy
   layers:
   - Default
   - TransparentFX

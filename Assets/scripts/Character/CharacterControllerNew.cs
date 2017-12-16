@@ -17,6 +17,8 @@ public class CharacterControllerNew : MonoBehaviour
     public int score;
 
     public bool injump = false;
+    public bool indanger=false;
+
    //public bool inwater = false;
 
     private Vector3 direction;
@@ -27,37 +29,26 @@ public class CharacterControllerNew : MonoBehaviour
     private Animator animatorCntrllr;
 
 
+    public float respownX;
+    public float respownY;
+    public GameObject respownPrefab;
+
     //Собираем бустеры
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "booster")
+        if (col.gameObject.tag == "booster")
         {
             Destroy(col.gameObject);
             score++;
         }
-    }
-
-    /*void OnWaterEnter(Collision2D col)
-    {
-        if(col.gameObject.name == "water")
+        if (col.gameObject.tag=="respown")
         {
-            inwater = true;
-         }
-        // animatorCntrllr.Play("Disappear");     
-        //if (coll.transform.tag == "Ground")
-    }*/
-    //Вывод табла на экран
-   
-    void Start()
-    {
-        
-        animatorCntrllr = GetComponent<Animator>();
-        body = GetComponent<Rigidbody2D>();
-
-        if (projectAxis == ProjectAxis.xAndY)
+            respownX = gameObject.transform.position.x;
+            respownY = gameObject.transform.position.y;        
+        }
+        if (col.gameObject.tag=="enemy")
         {
-            body.gravityScale = 0;
-            body.drag = 10;
+            indanger = true;
         }
     }
 
@@ -69,12 +60,19 @@ public class CharacterControllerNew : MonoBehaviour
             jump = true;
             injump = false;
         }
+        if (coll.transform.tag == "Water")
+        {
+            indanger = true;
+        }
+        else
+            indanger = false;
+
         /*else
             inwater = true;*/
     }
 
     void OnCollisionExit2D(Collision2D coll)
-    {    
+    {
         if (coll.transform.tag == "Ground")
         {
             body.drag = 0;
@@ -82,32 +80,64 @@ public class CharacterControllerNew : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
-    {
-        
-            body.AddForce(direction * body.mass * speed);
-            if (Mathf.Abs(body.velocity.x) > speed / 100f)
-            {
-                body.velocity = new Vector2(Mathf.Sign(body.velocity.x) * speed / 100f, body.velocity.y);
-            }
 
-            if (projectAxis == ProjectAxis.xAndY)
-            {
-                if (Mathf.Abs(body.velocity.y) > speed / 100f)
-                {
-                    body.velocity = new Vector2(body.velocity.x, Mathf.Sign(body.velocity.y) * speed / 100f);
-                }
-            }
-            else
-            {
-                if (Input.GetKey(addForceButton) && jump)
-                {
-                    body.velocity = new Vector2(0, addForce);
-                    injump = true;
-                }
-           
+    //Вывод табла на экран
+   
+    void Start()
+    {
+        animatorCntrllr = GetComponent<Animator>();
+        body = GetComponent<Rigidbody2D>();
+        respownPrefab = GameObject.FindGameObjectWithTag("Player");
+
+        if (projectAxis == ProjectAxis.xAndY)
+        {
+            body.gravityScale = 0;
+            body.drag = 10;
         }
     }
+
+    /*
+    IEnumerator MovePlayer()
+    {
+        yield return new WaitForSeconds(3f);
+        //respownPrefab.transform.position = new Vector3(respownX, respownY);
+        Water();
+        respownPrefab.transform.position = new Vector3(respownX, respownY);
+        // respownPrefab.transform.position = new Vector3(respownX, respownY);
+    }
+    */
+    void FixedUpdate()
+    {
+
+        body.AddForce(direction * body.mass * speed);
+        if (Mathf.Abs(body.velocity.x) > speed / 100f)
+        {
+            body.velocity = new Vector2(Mathf.Sign(body.velocity.x) * speed / 100f, body.velocity.y);
+        }
+        else if (indanger == true)
+        {
+            //MovePlayer();
+            respownPrefab.transform.position = new Vector3(respownX, respownY);
+
+        }
+
+        if (projectAxis == ProjectAxis.xAndY)
+        {
+            if (Mathf.Abs(body.velocity.y) > speed / 100f)
+            {
+                body.velocity = new Vector2(body.velocity.x, Mathf.Sign(body.velocity.y) * speed / 100f);
+            }
+        }
+        else
+        {
+            if (Input.GetKey(addForceButton) && jump)
+            {
+                body.velocity = new Vector2(0, addForce);
+                injump = true;
+            }
+        }
+    }
+   
 
    
 
@@ -130,6 +160,15 @@ public class CharacterControllerNew : MonoBehaviour
         }
     }
 
+    void Water()
+    {
+        if (indanger == true)
+        {
+            animatorCntrllr.Play("Disappear");
+        }
+    }
+
+    
     void Update()
     {
         if (Input.GetKey(leftButton)) { horizontal = -1; animatorCntrllr.Play("Walk"); }
@@ -137,17 +176,19 @@ public class CharacterControllerNew : MonoBehaviour
         else if (injump == false)
         {
             horizontal = 0;
-           /* if (inwater == true)
+            if (indanger==true)
             {
-                disappear();
+                Water();
             }
-            else*/ animatorCntrllr.Play("Idle");
+            else animatorCntrllr.Play("Idle");
         }
+
         else if (injump == true) Jump();
             if (projectAxis == ProjectAxis.onlyX)
             {
                 direction = new Vector2(horizontal, 0);
             }
+        
             /*else
             {
                 if (Input.GetKeyDown(addForceButton)) { speed += addForce; }
@@ -157,6 +198,7 @@ public class CharacterControllerNew : MonoBehaviour
             }*/
 
             if (horizontal > 0 && !isFacingRight) Flip(); else if (horizontal < 0 && isFacingRight) Flip();
+            
         }
 
     void OnGUI()
