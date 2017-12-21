@@ -9,6 +9,8 @@ TagManager:
   - booster
   - respown
   - enemy
+  - change direction
+  - ending
   layers:
   - Default
   - TransparentFX

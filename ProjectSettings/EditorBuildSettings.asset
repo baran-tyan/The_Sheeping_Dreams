@@ -9,5 +9,14 @@ EditorBuildSettings:
     path: Assets/scenes/MainMenu.unity
     guid: 990c1fa11567618448137ab0de723d0c
   - enabled: 1
+    path: Assets/scenes/History.unity
+    guid: 78d78ccf9b3c19f41b037f8b63733a4f
+  - enabled: 1
     path: Assets/scenes/PrevievCourseProject.unity
     guid: 9852248121285a64b9e1ee739c3405f3
+  - enabled: 1
+    path: Assets/scenes/GoodEnding.unity
+    guid: bb2b19d378cfab3468fb0f432288fb8f
+  - enabled: 1
+    path: Assets/scenes/BadEnding.unity
+    guid: 0f803b16102af294e848245994040b87

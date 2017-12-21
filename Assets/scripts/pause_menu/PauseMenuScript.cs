@@ -9,7 +9,7 @@ public class PauseMenuScript : MonoBehaviour {
     public string MainMenu;
 	// Use this for initialization
 	void Start () {
-	
+        Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
@@ -23,6 +23,7 @@ public class PauseMenuScript : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.Escape))
         {
             isPaused = !isPaused;
+            Cursor.visible = !Cursor.visible;
         }
 	}
     public void Resume()

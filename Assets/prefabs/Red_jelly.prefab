@@ -9,19 +9,21 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1258666865205434}
+  m_RootGameObject: {fileID: 1275028858648242}
   m_IsPrefabParent: 1
---- !u!1 &1258666865205434
+--- !u!1 &1275028858648242
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4074402179668528}
-  - component: {fileID: 212269755924782746}
-  - component: {fileID: 95088110530983890}
-  - component: {fileID: 70839100682180924}
+  - component: {fileID: 4600591310346608}
+  - component: {fileID: 212647327987438870}
+  - component: {fileID: 95349474075899516}
+  - component: {fileID: 70747704038205812}
+  - component: {fileID: 50365845225396920}
+  - component: {fileID: 114469478884972108}
   m_Layer: 0
   m_Name: Red_jelly
   m_TagString: enemy
@@ -29,25 +31,45 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4074402179668528
+--- !u!4 &4600591310346608
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1258666865205434}
+  m_GameObject: {fileID: 1275028858648242}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.719, y: 1.746, z: 0}
-  m_LocalScale: {x: 0.06733779, y: 0.1932427, z: 1}
+  m_LocalPosition: {x: 7.16, y: -3.755, z: 0}
+  m_LocalScale: {x: 2.1938188, y: 2.6432686, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &70839100682180924
+--- !u!50 &50365845225396920
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275028858648242}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!70 &70747704038205812
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1258666865205434}
+  m_GameObject: {fileID: 1275028858648242}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -57,13 +79,13 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0889362, y: -0.56664467}
   m_Size: {x: 1.8420335, y: 0.9391032}
   m_Direction: 1
---- !u!95 &95088110530983890
+--- !u!95 &95349474075899516
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1258666865205434}
+  m_GameObject: {fileID: 1275028858648242}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ed75ae01d44d15040abb22971446ac70, type: 2}
@@ -74,12 +96,26 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!212 &212269755924782746
+--- !u!114 &114469478884972108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275028858648242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9497f02d108164748b0c531779af8621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jelly: {fileID: 1275028858648242}
+  direction: 1
+  speed: 0.05
+--- !u!212 &212647327987438870
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1258666865205434}
+  m_GameObject: {fileID: 1275028858648242}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -103,8 +139,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 218853909
-  m_SortingLayer: 2
+  m_SortingLayerID: -699885491
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: 916968ce33bc19641971b7e30c5a180a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

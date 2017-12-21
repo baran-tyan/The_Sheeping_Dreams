@@ -7,7 +7,7 @@ public class MainMenuScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        Cursor.visible = true;
 	}
 	
 	// Update is called once per frame
@@ -22,5 +22,9 @@ public class MainMenuScript : MonoBehaviour {
     public void NewGame()
     {
         Application.LoadLevel("PrevievCourseProject");
+    }
+    public void History()
+    {
+        Application.LoadLevel("History");
     }
 }
